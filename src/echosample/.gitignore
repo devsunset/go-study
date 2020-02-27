@@ -1,0 +1,4 @@
+echosample
+*.db
+tmp
+/.idea/

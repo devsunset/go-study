@@ -1,0 +1,27 @@
+database:
+  driver: mysql
+  connection: root:admin@tcp(127.0.0.1:3306)/test?charset=utf8
+  logger:
+    kafka:
+       brokers: 
+        127.0.0.1:9092
+       topic: test
+    # kafka:
+    #   brokers:
+    #     - steamer-01.srvs.cloudkafka.com:9093
+    #     - steamer-02.srvs.cloudkafka.com:9093
+    #     - steamer-03.srvs.cloudkafka.com:9093
+    #   topic: labs
+behaviorLog:
+ kafka:
+   brokers: 
+      127.0.0.1:9092
+   topic: test
+    # brokers:
+    #   - steamer-01.srvs.cloudkafka.com:9093
+    #   - steamer-02.srvs.cloudkafka.com:9093
+    #   - steamer-03.srvs.cloudkafka.com:9093
+    # topic: labs
+debug: true
+service: echosample
+httpport: 8080

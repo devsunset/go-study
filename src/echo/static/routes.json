@@ -1,0 +1,47 @@
+[
+  {
+    "method": "GET",
+    "path": "/show",
+    "name": "main.show"
+  },
+  {
+    "method": "POST",
+    "path": "/saveFile",
+    "name": "main.saveFile"
+  },
+  {
+    "method": "GET",
+    "path": "/readCookie",
+    "name": "main.readCookie"
+  },
+  {
+    "method": "GET",
+    "path": "/readAllCookies",
+    "name": "main.readAllCookies"
+  },
+  {
+    "method": "GET",
+    "path": "/members",
+    "name": "main.main.func2"
+  },
+  {
+    "method": "GET",
+    "path": "/users/:id",
+    "name": "main.getUser"
+  },
+  {
+    "method": "GET",
+    "path": "/writeCookie",
+    "name": "main.writeCookie"
+  },
+  {
+    "method": "GET",
+    "path": "/",
+    "name": "main.main.func1"
+  },
+  {
+    "method": "POST",
+    "path": "/save",
+    "name": "main.save"
+  }
+]
