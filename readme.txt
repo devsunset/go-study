@@ -4,7 +4,7 @@
 
 --------------------------------------------------------------------------------
 
---- Go Lang Reference ---
+--- Go Reference ---
 [[Go]]
 https://golang.org
 
@@ -29,7 +29,7 @@ https://golangkorea.github.io/
 
 --------------------------------------------------------------------------------
 
---- Go Lang Study ---
+--- Go Study ---
 [[Go Tutorials]]
 https://go-tour-kr.appspot.com/#1
 http://golang.site/
@@ -40,6 +40,8 @@ https://mingrammer.com/gobyexample/
 https://gowebexamples.com/
 https://github.com/SimonWaldherr/golang-examples
 https://github.com/SimonWaldherr/golang-benchmarks
+
+--------------------------------------------------------------------------------
 
 --- Go Framework & Library ---
 [[go-web-framework-benchmark]]
